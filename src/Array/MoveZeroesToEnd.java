@@ -8,7 +8,7 @@ public class MoveZeroesToEnd {
 //        int [] temp = new int [arr.length];
 //        int idx = 0;
 //        for (int i = 0; i < arr.length; i++) {
-//            if (arr[i] != 0){
+//            if (arr[i] != 0)W{
 //                temp[idx++] = arr[i];
 //            }
 //        }
@@ -20,10 +20,9 @@ public class MoveZeroesToEnd {
 //        for (int i = temp.length; i < arr.length ; i++) {
 //            arr[i] = 0;
 //        }
+//        sc-> o(x); tc-> o(n)
 
-
-
-        int j = -1;
+        int j = -1; //j is storing wherever the first 0 is
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0){
                 j=i;

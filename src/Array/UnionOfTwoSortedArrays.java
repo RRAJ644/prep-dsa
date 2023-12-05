@@ -24,6 +24,9 @@ public class UnionOfTwoSortedArrays {
 //        }
 //        System.out.println(Arrays.toString(uninon));
 
+//        tc-> O(n1 logn)+O(n2 logn)+O(n1+n2)
+//        sc-> O(n1+n2)
+
         int i=0;
         int j=0;
         int k=0;
@@ -54,11 +57,6 @@ public class UnionOfTwoSortedArrays {
             j++;
             k++;
         }
-
-
         System.out.println(Arrays.toString(union));
-
-
-
     }
 }
